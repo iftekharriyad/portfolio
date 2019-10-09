@@ -135,19 +135,19 @@ background-color: black;
   @media (max-width:510px){
      
     #welcome-section h3{
-      font-size: 1.9em;
+      font-size: 1.8em;
     }
   }
   @media (max-width:455px){
      
     #welcome-section h3{
-      font-size: 1.8em;
+      font-size: 1.7em;
     }
   }
   @media (max-width:390px){
      
     #welcome-section h3{
-      font-size: 1.8em;
+      font-size: 1.5em;
     }
   }
   #projects {
