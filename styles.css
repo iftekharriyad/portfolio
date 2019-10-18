@@ -43,6 +43,7 @@ nav {
     list-style: none;
     padding:1.6vh;
     margin: 0;
+	transition: background-color .3s ease-out;
 	
 }
 @media (max-height:800px){
@@ -57,7 +58,7 @@ nav {
     }
 #navbar li:hover{
 background-color: black;
-	transform: background-color .3s ease-out;
+	
 }
 #welcome-section {
     width: 100%;
