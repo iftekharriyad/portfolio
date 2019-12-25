@@ -39,12 +39,10 @@ nav {
     align-items: center;
     flex-direction: row;
 }
-
-#navbar li {
-	list-style: none;
-	padding: 1.6vh;
-	margin: 0;
-	transition: background-color .3s ease-out;
+#navbar li{
+    list-style: none;
+    padding:1.6vh;
+    margin: 0;
 }
 @media (max-height:800px){
   #navbar li{
@@ -58,7 +56,6 @@ nav {
     }
 #navbar li:hover{
 background-color: black;
-	
 }
 #welcome-section {
     width: 100%;
@@ -67,7 +64,7 @@ background-color: black;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("11.jpg");
+    background-image: url("hero-image.jpg");
     background-position:center;
     background-repeat:no-repeat; 
     background-size:cover;
@@ -264,7 +261,6 @@ background-color: black;
     color:var(--main-gray);
     transform: color 0.3s ease-out;
     padding: 1px;
-	  transition: color .3s ease-out;
   }
   .proj-cell:hover .code{
     color:#ff7f50;
@@ -339,7 +335,7 @@ background-color: black;
   font-size: 2em;
   padding: 0 10px;
   display: inline-block;
-  transition: transform 0.3s ease-out;
+  transition: transform 0.2s ease-out;
 }
 @media (max-width:950px){
   .btn-contact{
